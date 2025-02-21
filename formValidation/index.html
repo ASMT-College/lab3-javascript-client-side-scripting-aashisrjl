@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client-Side Validation</title>
+  <style>
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <form id="signupForm">
+    <div>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      <span class="error" id="emailError"></span>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <span class="error" id="passwordError"></span>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="validation.js"></script>
+</body>
+</html>
