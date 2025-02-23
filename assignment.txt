@@ -1,0 +1,144 @@
+1. Syntax
+PHP: Uses <?php ... ?> tags for code inside HTML.
+JavaScript: Uses <script>...</script> inside HTML or separate .js files.
+Example:
+PHP
+
+
+<?php
+echo "Hello, World!";
+?>
+JavaScript
+
+console.log("Hello, World!");
+2. Variables
+PHP: Variables start with $, and type declaration is not required.
+JavaScript: Uses var, let, or const for variable declaration.
+Example:
+PHP
+
+
+$name = "Aashish";
+$age = 25;
+JavaScript
+
+let name = "Aashish";
+const age = 25;
+3. Datatypes
+Type	PHP Example	JS Example
+String	$text = "Hello";	let text = "Hello";
+Integer	$num = 10;	let num = 10;
+Float	$pi = 3.14;	let pi = 3.14;
+Boolean	$isTrue = true;	let isTrue = true;
+Array	$arr = [1,2,3];	let arr = [1,2,3];
+Object	$obj = (object) ['name' => 'Aashish'];	let obj = { name: "Aashish" };
+NULL	$x = NULL;	let x = null;
+4. Statements
+PHP: Ends statements with ;.
+JavaScript: Can end with ; (optional in most cases).
+Example:
+PHP
+
+echo "Hello, World!";
+JavaScript
+
+console.log("Hello, World!");
+5. Operators
+Operator	PHP Example	JS Example
+Arithmetic	$sum = 2 + 3;	let sum = 2 + 3;
+Comparison	if ($a == $b)	if (a === b)
+Logical	`&&,	
+Assignment	$x += 5;	x += 5;
+Ternary	$result = ($age > 18) ? "Adult" : "Minor";	let result = (age > 18) ? "Adult" : "Minor";
+6. Flow Control (Loops & Conditions)
+If-Else
+
+PHP
+
+if ($age > 18) {
+    echo "Adult";
+} else {
+    echo "Minor";
+}
+JavaScript
+
+if (age > 18) {
+    console.log("Adult");
+} else {
+    console.log("Minor");
+}
+Loops
+PHP
+
+for ($i = 0; $i < 5; $i++) {
+    echo $i;
+}
+JavaScript
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+7. Functions
+PHP
+
+
+function greet($name) {
+    return "Hello, " . $name;
+}
+echo greet("Aashish");
+JavaScript
+
+
+function greet(name) {
+    return "Hello, " + name;
+}
+console.log(greet("Aashish"));
+8. Arrays
+PHP
+
+$fruits = ["Apple", "Banana", "Mango"];
+echo $fruits[1]; // Banana
+JavaScript
+
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits[1]); // Banana
+
+9. Class and Object
+PHP
+
+class Car {
+    public $brand;
+    
+    function __construct($brand) {
+        $this->brand = $brand;
+    }
+
+    function getBrand() {
+        return $this->brand;
+    }
+}
+
+$car = new Car("Toyota");
+echo $car->getBrand();
+
+JavaScript
+
+class Car {
+    constructor(brand) {
+        this.brand = brand;
+    }
+
+    getBrand() {
+        return this.brand;
+    }
+}
+
+let car = new Car("Toyota");
+console.log(car.getBrand());
+
+dtd=document type definition
+
+xsd=
+
+what is xml and what are syntax rules for well formed xml
+
